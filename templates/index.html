@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Write your Nickname pls:</h1>
+<form action="/register" method="post">
+    <input name="Nickname" placeholder="Nickname" type="text"/>
+    <input type="submit" value="Register"/>
+</form>
+{% endblock %}
